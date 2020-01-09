@@ -1,5 +1,4 @@
 const calculator = (() => {
-
   const add = (a, b) => a + b;
 
   const subtract = (a, b) => a - b;
@@ -7,15 +6,16 @@ const calculator = (() => {
   const multiply = (a, b) => a * b;
 
   const divide = (a, b) => {
-    if ( b === 0 ) {
-      throw new Error('You cannot divide by zero')
+    if (b === 0) {
+      throw new Error('You cannot divide by zero');
     } else {
       return a / b;
     }
-  } 
+  };
 
-  return { add, subtract, multiply, divide }
-
+  return {
+    add, subtract, multiply, divide,
+  };
 })();
 
 export default calculator;
