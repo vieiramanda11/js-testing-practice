@@ -1,6 +1,6 @@
 import reverseString from '../src/reverseString'
 
-test('throwing an error when the parameter is not a string', () =>{
+test('throwing an error when the parameter is not a string', () => {
     const noStringCase = () => {
         reverseString(7);
     };
