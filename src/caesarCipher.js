@@ -1,5 +1,5 @@
 const caesarCipher = (() => {
-  const isUpperCase = (str) => str === str.toUpperCase();
+  const isUpperCase = str => str === str.toUpperCase();
 
   const encrypt = (str, key) => {
     let decipher = '';
